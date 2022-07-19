@@ -30,7 +30,8 @@
     "test:rinkeby": "npx hardhat --network rinkeby test",
     "test:coverage": "npx hardhat coverage --solcoverjs ./.solcover.js",
     "deploy:mainnet": "npx hardhat run --network mainnet scripts/deploy.js",
-    "deploy:rinkeby": "npx hardhat run --network rinkeby scripts/deploy.js"
+    "deploy:rinkeby": "npx hardhat run --network rinkeby scripts/deploy.js",
+    "grand:role": "npx hardhat run --network rinkeby scripts/grandrole.js"
   },
   "repository": {
     "type": "git",
